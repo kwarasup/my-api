@@ -4,3 +4,6 @@ sqlalchemy
 asyncpg
 psycopg[binary]
 python-dotenv
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
