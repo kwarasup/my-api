@@ -13,6 +13,7 @@ app = FastAPI()
 origins = [
     "http://localhost:3000",          # ตอน dev frontend รันที่นี่
     "http://127.0.0.1:3000",
+    "https://smartcut-v0--smartcut-goodfilm.asia-southeast1.hosted.app/",
     "https://your-frontend-domain.com"  # ถ้ามี domain จริง ให้ใส่เพิ่ม
     # จะเพิ่ม origin อื่นได้อีก เช่น mobile/web app อื่น ๆ
 ]
